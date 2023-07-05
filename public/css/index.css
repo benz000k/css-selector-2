@@ -1,0 +1,141 @@
+:root {
+  background: white;
+}
+
+* {
+  color: black;
+}
+
+h1 {
+  background: blue;
+}
+
+p.green {
+  background: green;
+}
+
+#blue {
+  color: blue;
+}
+
+.box p {
+  background: red;
+}
+
+.box div {
+  background: green;
+}
+
+.brown {
+  background-color: brown;
+  color: white;
+}
+
+ul > li {
+  background-color: red;
+}
+
+.header-button + span {
+  background-color: red;
+}
+
+.susid ~ p {
+  background-color: blue;
+  color: white;
+}
+
+#bread,
+.salo {
+  background-color: yellow;
+}
+
+.first-task ul li:first-child {
+  color: white;
+}
+
+.second-task ul li:first-child {
+  color: yellow;
+}
+
+.third-task ul:last-child li:first-child {
+  background-color: yellow;
+}
+
+.four-task li:last-child {
+  background-color: yellow;
+}
+
+.five-task ul:last-child li:last-child {
+  color: white;
+}
+
+.only-child-task div:only-child {
+  color: red;
+}
+
+.seven-task span:first-of-type {
+  background-color: red;
+}
+
+.eight-task p:last-of-type {
+  background-color: red;
+}
+
+.text-wrapper p:only-of-type {
+  background-color: yellow;
+}
+
+.lesson-three-task-one a[href] {
+  color: white;
+}
+
+.lesson-three-task-two li[value] {
+  color: yellow;
+}
+
+.lesson-three-task-three li[value] {
+  background-color: red;
+}
+
+.lesson-three-task-four button[class~='primary'] {
+  background-color: blue;
+}
+
+.lesson-three-task-five button[class|='secondary'] {
+  background-color: red;
+}
+
+.lesson-three-task-six li[class^='b'] {
+  color: green;
+  background-color: white;
+}
+
+.lesson-three-task-seven li[class*='on'] {
+  color: green;
+  background-color: white;
+}
+
+.lesson-three-task-eight span[class$='s'] {
+  color: blue;
+  background-color: white;
+}
+
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+  background-color: yellow;
+}
+
+.lesson-three-task-eleven input::placeholder {
+  background-color: red;
+}
+
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
